@@ -1,0 +1,12 @@
+# python
+__pycache__
+*.pyc
+
+# pyinstaller
+build/
+dist/
+*.spec
+
+# custom configs
+*.ini
+*settings.json
