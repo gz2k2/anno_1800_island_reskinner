@@ -1,6 +1,6 @@
-# Anno Island Reskinner
+# Anno 1800 Island Reskinner
 
-**Anno Island Reskinner** is a specialized utility designed to streamline and automate the process of skinning and converting island maps for *Anno 1800*. 
+**Anno 1800 Island Reskinner** is a specialized utility designed to streamline and automate the process of skinning and converting island maps for *Anno 1800*. 
 
 This application translates the core concepts, manual patching steps, and file manipulations detailed in the official modding tutorials into a simplified user interface.
 
