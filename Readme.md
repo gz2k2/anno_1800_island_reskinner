@@ -42,9 +42,27 @@ These specific file formats and mapping files are extracted from the skinning gu
 
 ## 🎨 Custom Material Sets
 
-You can integrate your own material sets into the application:
+Integrated material sets can be selected from the dropdown menu in the **"Material Sets"** tab and exported using the **"Save as..."** option. 
+
+You can also integrate your own material sets into the application:
 * Create a new folder named `custom_material_sets` directly inside the main application directory.
 * The tool will automatically detect and load any valid material sets placed within this folder.
+
+---
+
+## Known Bugs
+
+- If a folder contains two island variants (normal/river), both variants are copied and incorrectly interpreted.
+  **Workaround:** Place each island variant in its own folder.
+- The "dot" placement on the map is incorrect and does not match the zoom/pan.
+- Automatic TMC data loading is buggy. In some cases, you need to manually select the meshes folder and click reload.      
+
+---
+
+## Contributing
+
+The config and database files are available on the GitHub page. If you have additional settings or would like to improve the categories, feel free to do so. I also welcome optimized `material_sets` — just submit your new files as a pull request (PR).   
+
 
 ---
 
