@@ -9,7 +9,7 @@ This application translates the core concepts, manual patching steps, and file m
 ## 📌 Background & Credits
 
 This tool is heavily based on the comprehensive **Skinning an Island Guide** created by **Hier0nimus**. 
-* **Original Guide:** [Hier0nimus Island Skinning Tutorial](https://github.com/anno-mods/modding-guide/blob/main/hier0nimus-tutorials/07-skinning-island/readme.md)
+* **Original Guide:** [Hier0nimus Island Skinning Tutorial](https://github.com)
 * **Special Thanks:** Groundwork, file formats, and research credits go to **Taube**, **Taludas**, and **VALiiiUM** for making island skinning possible.
 
 ---
@@ -37,6 +37,14 @@ These specific file formats and mapping files are extracted from the skinning gu
 1. **Extract the Zip:** Unpack the contents of the download file into your preferred workspace directory.
 2. **Configure Settings:** Open the application and navigate to the **Settings** tab.
 3. **Map the Paths:** Ensure all executable files (`.exe`) and schema files (`.xml`) listed above are properly linked to their corresponding paths within the UI.
+
+---
+
+## 🎨 Custom Material Sets
+
+You can integrate your own material sets into the application:
+* Create a new folder named `custom_material_sets` directly inside the main application directory.
+* The tool will automatically detect and load any valid material sets placed within this folder.
 
 ---
 
