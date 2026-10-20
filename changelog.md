@@ -1,13 +1,24 @@
 # Changelog
 
-## [v0.80.7]
+## [v0.81.5]
 
 ### Added
-- **Completely redesigned UI:** The user interface has been fully rebuilt to be more intuitive and easier to use.
-- **Export Material Sets:** A new button, "Export material_sets.xml", has been added to the "Finalize" tab. This allows you to export the MaterialSets file that was selected in the "Regional Configuration" tab.
+- **Regional Settings Tab:** Added a darker Enbesa preset (needs testing).
+- **Object Configuration Tab:** Added the ability to add, remove and change the density of placed objects. Settings are available in *Show Object Map* (includes help text explaining how it works).
+- **Settings Tab:** Added a new folder configuration option: *"Map export folder"*.
 
 ### Changed
-- **Object Replace From/To workflow:** Replaced the old dropdown menus with an independent popup frame. It features clean filtering options, though the categories still require further refinement.
+- **Settings Tab:** Renamed *"Custom map folder"* to *"Temporary map folder"*.
+- **Finalize Tab:**
+  - Renamed the *"Finalize"* button to *"Pack Island Data"*.
+  - Added a new *"Export Map"* button, which copies the newly packed island map to the destination folder (*Map export folder*) without temporary files, leaving a clean, organized island file.
 
-### Fixed
-- **Multi-variant folder selection:** When a folder contains multiple island variants, a prompt now appears asking you to choose which variant you would like to use.
+### Fixed & Improved
+- **Performance Improvements:** Added background workers and progress bars. Several operations are now processed in RAM and saved later to enhance performance.
+- **Slot Map & Object Map:** Corrected map dot positions so they now align properly on the map image.
+
+### Experimental / Unstable
+- **Slot Configuration:** Should not be used in this version. (Note: The *Slot Map* for viewing slots works correctly.)
+
+### Known Issues
+- Some tables and pop-up windows are not fully polished yet. You can manually resize the windows to display all UI elements correctly.
